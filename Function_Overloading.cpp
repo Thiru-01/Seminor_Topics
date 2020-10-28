@@ -14,7 +14,7 @@ void display (double a )
     {
         cout << a << endl;
     }
-void display(int a, float b)
+void display(int a, double b)
     {
         cout<< a << " , " << b << endl;
     }
@@ -25,7 +25,7 @@ int main()
         display(5);
         display(2.3);
         display(5,8);
-        //display(5,4.0);
+        display(5,4.0);
         getch();
         return 0;
     }
