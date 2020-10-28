@@ -7,7 +7,7 @@ inline int cube(int s)
         return s*s*s; 
     }
 
-inlint inc(int a) 
+inc(int a) 
     { 
         return a*a; 
     }
